@@ -1,8 +1,9 @@
-import bas from "./assets/img/bas.jpg";
-import "bootstrap/dist/css/bootstrap.min.css";
+
+import './global.scss'
+import Header from "./Header";
 
 function App() {
-  return <img src={bas} alt="en construccion" style={{width:'100%'}}/>;
+  return <Header />;
 }
 
 export default App;
