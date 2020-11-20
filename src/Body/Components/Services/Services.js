@@ -1,5 +1,5 @@
 import React from "react";
-import "./servicios.scss";
+import "./services.scss";
 import compu from '../../../assets/img/desktop.png'
 import shower from '../../../assets/img/shower.png'
 import wifi from '../../../assets/img/wifi.png'
@@ -26,7 +26,6 @@ function Servicios() {
           <img src={shower} alt="Ducha" className="imgServ"/>
       </div>
       <hr />
-
     </>
   );
 }

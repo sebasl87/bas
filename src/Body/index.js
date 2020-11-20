@@ -2,7 +2,9 @@ import React from "react";
 import img2 from "../assets/img/2.jpg";
 import Galery from "./Components/Galery/Galery";
 import Goldtext from "./Components/GoldenText/Goldtext";
-import Servicios from "./Components/Servicios/Servicios";
+import Services from "./Components/Services/Services";
+import Location from "./Components/Location/Location";
+
 import "./index.scss";
 
 const Body = () => {
@@ -11,9 +13,10 @@ const Body = () => {
       <div className="container">
         <div className="w-90 text-center m-auto">
           <img src={img2} alt="Logo BienAlSur" className="slider" />
-          <Goldtext/>
-          <Servicios/>
-          <Galery/>
+          <Goldtext />
+          <Services />
+          <Galery />
+          <Location />
         </div>
       </div>
     </>
