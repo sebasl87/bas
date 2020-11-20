@@ -1,0 +1,12 @@
+.col-4 {
+  padding: 15px;
+  img {
+    width: 100% !important;
+    transition: width 2s;
+  }
+  img:hover {
+    width: 150% !important;
+    position: inherit;
+    z-index: 2;
+  }
+}

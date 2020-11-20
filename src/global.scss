@@ -1,5 +1,50 @@
 $theme-colors: (
   "primary": #be976a,
 );
-// Import Bootstrap and its default variables
+
+@font-face {
+  font-family: "Century";
+  src: local("CenturyRegular"),
+    url("./assets/fonts/CenturyRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Rage";
+  src: local("RAGE"), url("./assets/fonts/RAGE.ttf") format("truetype");
+}
 @import "~bootstrap/scss/bootstrap.scss";
+
+html {
+  --top-spacing: 209px;
+  // scroll-padding-top: var(--top-spacing);
+}
+
+body {
+  color: #707070;
+  // ULTIMATELY this needs to go on <html>, not <body>.
+  scroll-padding-top: var(--top-spacing);
+
+  margin: var(--top-spacing) auto;
+}
+
+hr{
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+  border-top: 2px solid #be976a !important;
+  width: 80% !important;
+}
+
+/**FONT SIZEs*/
+
+.fz23 {
+  font-size: 23px;
+}
+.fz30 {
+  font-size: 30px;
+}
+.fz40 {
+  font-size: 40px;
+}
+/**WIDTH*/
+.w-90 {
+  width: 90%;
+}

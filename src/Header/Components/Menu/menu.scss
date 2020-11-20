@@ -1,3 +1,11 @@
 .menu {
   height: 40px;
+  color: #707070;
+  span:hover {
+    color: #000000;
+    cursor: pointer;
+  }
+}
+.home {
+  height: 30px;
 }

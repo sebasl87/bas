@@ -1,5 +1,16 @@
-.logo{
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-    max-width: 417px;
+body {
+  font-family: Century !important;
+}
+.logo {
+  margin: auto;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  max-width: 417px;
+}
+.fixed {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  top: 0;
+  z-index: 1;
 }
