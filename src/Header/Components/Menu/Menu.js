@@ -1,6 +1,6 @@
 import React from "react";
 import "./menu.scss";
-import home from "../../../assets/img/homed.png";
+import home from "../../../assets/icons/homed.png";
 export default function Menu() {
   return (
     <div className="container border rounded border-primary menu d-flex justify-content-center m-auto">
