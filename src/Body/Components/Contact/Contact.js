@@ -5,26 +5,35 @@ import card from "../../../assets/icons/card.png";
 import phone from "../../../assets/icons/phone.png";
 import globe from "../../../assets/icons/globe.png";
 import keyboard from "../../../assets/icons/keyboard.png";
+import emailjs from "emailjs-com";
 
 function Contact() {
   const [datos, setDatos] = useState({});
 
   const handleInputChange = (event) => {
-    // console.log(event.target.name)
-    // console.log(event.target.value)
     setDatos({
       ...datos,
       [event.target.name]: event.target.value,
     });
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log("enviando datos..." + datos.name + " " + datos.tel);
+  const handleSubmit = (e) => {
+    e.preventDefault(); //This is important, i'm not sure why, but the email won't send without it
+    emailjs
+      .send("gmail", "template_dwre2iq", datos, "user_iCSmPPl6qaw21oiWvx8hX")
+      .then(
+        (result) => {
+          window.location.reload(); //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
-  
-  const isEnabled = datos.name && datos.phone && datos.email && datos.nac && datos.msg;
-   
+
+  const isEnabled =
+    datos.name && datos.phone && datos.email && datos.nac && datos.message;
+
   return (
     <form onSubmit={handleSubmit}>
       <div className="card">
@@ -94,7 +103,7 @@ function Contact() {
               <div className="my-auto ml-3 w-100">
                 <textarea
                   onChange={handleInputChange}
-                  name="msg"
+                  name="message"
                   placeholder="Consulta"
                   className="w-100"
                 />
@@ -102,7 +111,11 @@ function Contact() {
             </div>
           </div>
         </div>
-        <button  disabled={!isEnabled} className="btn w-90 btn-primary align-self-center mb-5" type="submit">
+        <button
+          disabled={!isEnabled}
+          className="btn w-90 btn-primary align-self-center mb-5"
+          type="submit"
+        >
           Enviar
         </button>
       </div>
