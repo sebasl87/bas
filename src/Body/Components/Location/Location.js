@@ -12,7 +12,7 @@ function Location() {
         </div>
       </div>
       <div>
-        <div className="fz30 text-center">
+        <div className="fz20 text-center">
           Está ubicado muy próximo al centro de la ciudad, a pie sin pendiente y
           a cuatro cuadras de la Bahía de Ushuaia. Se encuentra a pocos metros
           de un supermercado grande, con cajero automático y a cuatro cuadras de
