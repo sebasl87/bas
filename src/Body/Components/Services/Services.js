@@ -8,10 +8,10 @@ function Servicios() {
   return (
     <>
       <div className="mx-auto mb-4">
-        <div className="fz40 text-center">Servicios</div>
+        <div className="fz30 text-center">Servicios</div>
       </div>
       <div>
-        <div className="fz30 text-center">
+        <div className="fz20 text-center lh17">
           Departamento de cuatro ambientes: tres dormitorios (uno en suite con
           vestidor), living- cocina comedor y dos baños. <br /><br /> Cocina
           eléctrica, horno eléctrico, microondas, cafetera y tostadora
@@ -20,7 +20,7 @@ function Servicios() {
           y seguridad durante el día.
         </div>
       </div>
-      <div className="mx-auto mt-4">
+      <div className="mx-auto mt-35">
           <img src={compu} alt="Internet" className="imgServ"/>
           <img src={wifi} alt="Wifi" className="imgServ"/>
           <img src={shower} alt="Ducha" className="imgServ"/>
