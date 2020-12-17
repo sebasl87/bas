@@ -37,7 +37,7 @@ function Contact() {
   return (
     <form onSubmit={handleSubmit}>
       <div className="card">
-        <div className="card-header bg-primary">Contacto</div>
+        <div className="card-header bg-primary fz30 text-white">Contacto</div>
         <div className="card-body">
           <div className="row">
             <div className="col-6 mb-3">
