@@ -7,15 +7,15 @@ import por from "../../../assets/img/por.jpg";
 export default function Idioma() {
   return (
     <div className="banderas">
-      <div class="dropdown">
-        <button type="button" class="btn dropdown p-0" data-toggle="dropdown">
+      <div className="dropdown">
+        <button type="button" className="btn dropdown p-0" data-toggle="dropdown">
           <img src={arg} alt="Argentino" />
         </button>
-        <div class="dropdown-menu p-0" aria-labelledby="dropdownMenu2">
-          <button class="dropdown-item" type="button">
+        <div className="dropdown-menu p-0" aria-labelledby="dropdownMenu2">
+          <button className="dropdown-item" type="button">
             <img src={ing} alt="Ingles" />
           </button>
-          <button class="dropdown-item" type="button">
+          <button className="dropdown-item" type="button">
             <img src={por} alt="Brasilero" />
           </button>
         </div>

@@ -4,6 +4,7 @@ import Galery from "./Components/Galery/Galery";
 import Goldtext from "./Components/GoldenText/Goldtext";
 import Services from "./Components/Services/Services";
 import Location from "./Components/Location/Location";
+import Contact from "./Components/Contact/Contact";
 
 import "./index.scss";
 
@@ -17,6 +18,7 @@ const Body = () => {
           <Services />
           <Galery />
           <Location />
+          <Contact />
         </div>
       </div>
     </>

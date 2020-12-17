@@ -1,0 +1,24 @@
+input{
+    height: 40px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    width: 380px;
+}
+
+.icon img{
+    max-width: 40px;
+    height: auto;
+}
+
+.col-6{
+    display: inline-flex;
+}
+.col-10{
+    display: inline-flex;
+}
+.card-body{
+    padding: 2.25rem !important;
+}
+.btn{
+    height: 60px;
+}
