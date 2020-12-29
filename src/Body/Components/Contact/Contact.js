@@ -35,7 +35,7 @@ function Contact() {
     datos.name && datos.phone && datos.email && datos.nac && datos.message;
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} id="contacto">
       <div className="card mb-5">
         <div className="card-header bg-primary fz30 text-white" style={{lineHeight:0.5}} >Contacto</div>
         <div className="card-body">

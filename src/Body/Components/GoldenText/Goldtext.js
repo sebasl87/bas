@@ -3,7 +3,7 @@ import "./goldentext.scss";
 
 function Goldtext() {
   return (
-    <div>
+    <div  id="servicios">
       <hr />
       <div
         style={{ fontFamily: "Rage" }}
@@ -13,7 +13,7 @@ function Goldtext() {
         amplios ventanales en todos los ambientes con vista hacia la Bahía de
         Ushuaia, Canal Beagle, Monte Olivia y Glaciar Martial.
       </div>
-      <hr />
+      <hr/>
     </div>
   );
 }

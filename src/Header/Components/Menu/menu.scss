@@ -1,9 +1,13 @@
 .menu {
   height: 40px;
   color: #707070;
-  span:hover {
+  a{
+  color: #707070;
+  }
+  a:hover {
     color: #000000;
     cursor: pointer;
+    text-decoration: none;
   }
 }
 .home {
