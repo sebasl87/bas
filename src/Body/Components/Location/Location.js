@@ -6,7 +6,7 @@ import Map from "./Map/Map";
 function Location() {
   return (
     <>
-      <div className="mx-auto mb-4">
+      <div className="mx-auto mb-4" id="ubicacion">
         <div className="fz30 text-center centrado">
           Ubicación <img src={position} alt="Internet" className="imgLoc ml-2" />
         </div>
