@@ -5,21 +5,23 @@ import ing from "../../../assets/img/ing.jpg";
 import por from "../../../assets/img/por.jpg";
 
 export default function Idioma() {
+
+  const changeLanguage = (code) => {
+    localStorage.setItem("language", code);
+    window.location.reload();
+  };
+
   return (
     <div className="banderas">
-      <div className="dropdown">
-        <button type="button" className="btn dropdown p-0" data-toggle="dropdown">
-          <img src={arg} alt="Argentino" />
-        </button>
-        <div className="dropdown-menu p-0" aria-labelledby="dropdownMenu2">
-          <button className="dropdown-item" type="button">
-            <img src={ing} alt="Ingles" />
-          </button>
-          <button className="dropdown-item" type="button">
-            <img src={por} alt="Brasilero" />
-          </button>
-        </div>
-      </div>
+      <button className="btn p-0" onClick={() => changeLanguage("es")}>
+        <img src={arg} alt="Argentino" />
+      </button>
+      <button className="btn p-0" onClick={() => changeLanguage("en")}>
+        <img src={ing} alt="Ingles" />
+      </button>
+      <button className="btn p-0" onClick={() => changeLanguage("po")}>
+        <img src={por} alt="Brasilero" />
+      </button>
     </div>
   );
 }

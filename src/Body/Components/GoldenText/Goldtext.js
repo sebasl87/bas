@@ -1,19 +1,19 @@
 import React from "react";
 import "./goldentext.scss";
+import { useTranslation } from "react-i18next";
 
 function Goldtext() {
+  const { t, i18n } = useTranslation();
   return (
-    <div  id="servicios">
+    <div id="servicios">
       <hr />
       <div
         style={{ fontFamily: "Rage" }}
         className="text-primary text-center h1"
       >
-        Departamento ubicado en el tercer piso del edificio Marinas Tower, con
-        amplios ventanales en todos los ambientes con vista hacia la Bahía de
-        Ushuaia, Canal Beagle, Monte Olivia y Glaciar Martial.
+        {t("golden")}
       </div>
-      <hr/>
+      <hr />
     </div>
   );
 }
