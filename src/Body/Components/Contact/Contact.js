@@ -6,8 +6,10 @@ import phone from "../../../assets/icons/phone.png";
 import globe from "../../../assets/icons/globe.png";
 import keyboard from "../../../assets/icons/keyboard.png";
 import emailjs from "emailjs-com";
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+  const { t, i18n } = useTranslation();
   const [datos, setDatos] = useState({});
 
   const handleInputChange = (event) => {
@@ -37,7 +39,12 @@ function Contact() {
   return (
     <form onSubmit={handleSubmit} id="contacto">
       <div className="card mb-5">
-        <div className="card-header bg-primary fz30 text-white" style={{lineHeight:0.5}} >Contacto</div>
+        <div
+          className="card-header bg-primary fz30 text-white"
+          style={{ lineHeight: 0.5 }}
+        >
+          Contacto
+        </div>
         <div className="card-body">
           <div className="row">
             <div className="col-6 mb-3">
@@ -49,7 +56,7 @@ function Contact() {
                   type="text"
                   onChange={handleInputChange}
                   name="name"
-                  placeholder="Nombre y Apellido"
+                  placeholder={t("contacto.nombre")}
                 />
               </div>
             </div>
@@ -62,7 +69,7 @@ function Contact() {
                   type="tel"
                   onChange={handleInputChange}
                   name="phone"
-                  placeholder="Teléfono"
+                  placeholder={t("contacto.tel")}
                 />
               </div>
             </div>
@@ -90,7 +97,7 @@ function Contact() {
                   type="text"
                   onChange={handleInputChange}
                   name="nac"
-                  placeholder="Nacionalidad"
+                  placeholder={t("contacto.nac")}
                 />
               </div>
             </div>
@@ -104,7 +111,7 @@ function Contact() {
                 <textarea
                   onChange={handleInputChange}
                   name="message"
-                  placeholder="Consulta"
+                  placeholder={t("contacto.msg")}
                   className="w-100"
                 />
               </div>
@@ -116,7 +123,7 @@ function Contact() {
           className="btn w-90 btn-primary align-self-center mb-5"
           type="submit"
         >
-          Enviar
+          {t("contacto.enviar")}
         </button>
       </div>
     </form>

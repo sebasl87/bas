@@ -1,0 +1,20 @@
+{
+  "menu": {
+    "rva": "Book Now",
+    "serv": "Amenities",
+    "gal": "Gallery",
+    "ubi": "Location",
+    "ctc": "Contact"
+  },
+  "golden": "Apartment located on the third floor of the Marinas Tower building, with large windows in all rooms with views of the Bay of Ushuaia, Beagle Channel, Mount Olivia and Martial Glacier.",
+  "servicios": "Four-room apartment: three bedrooms (one suite with dressing room), living-kitchen-dining room and two bathrooms./nElectric stove, electric oven, microwave, electric coffee maker and toaster, refrigerator with freezer, smart TV and free Wi-Fi. All beds are high quality box springs. The building has a terrace, laundry and security during the day.",
+  "ubicacion": "It is located very close to the city center, on foot without a slope and four blocks from the Bay of Ushuaia. It is located a few meters from a large supermarket, with an ATM and four blocks from a service station.",
+  "contacto": {
+    "nombre": "Full Name",
+    "mail": "Email",
+    "tel": "Phone",
+    "nac": "Nationality",
+    "msg": "Message",
+    "enviar": "Send"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "menu": {
+    "rva": "Reservas",
+    "serv": "Serviços",
+    "gal": "Galeria",
+    "ubi": "Localização",
+    "ctc": "Contato"
+  },
+  "golden": "Apartamento localizado no terceiro andar do edifício Marinas Tower, com amplas janelas em todos os cômodos com vista para a Baía de Ushuaia, Canal de Beagle, Monte Olivia e Glaciar Martial.",
+  "servicios": "Apartamento de quatro assoalhadas: três quartos (uma suite com closet), sala-cozinha-sala de jantar e duas casas de banho.\n\nFogão elétrico, forno elétrico, microondas, cafeteira elétrica e torradeira, geladeira com freezer, smart TV e Wi-Fi gratuito. Todas as camas são molas de alta qualidade. O prédio possui terraço, lavanderia e segurança durante o dia.",
+  "ubicacion": "Está localizado bem próximo ao centro da cidade, a pé sem declive e a quatro quadras da Baía de Ushuaia. Está localizado a poucos metros de um grande supermercado, com caixa eletrônico e a quatro quadras de um posto de gasolina.",
+  "contacto": {
+    "nombre": "Nome",
+    "mail": "Email",
+    "tel": "Telefone",
+    "nac": "Nationalidade",
+    "msg": "Mensagem",
+    "enviar": "Enviar"
+  }
+}

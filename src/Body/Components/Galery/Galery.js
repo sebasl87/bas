@@ -1,26 +1,26 @@
 import React from "react";
 import "./galery.scss";
-import img1 from "../../../assets/img/galery/1.jpg";
-import img2 from "../../../assets/img/galery/2.jpg";
-import img3 from "../../../assets/img/galery/3.jpg";
-import img4 from "../../../assets/img/galery/4.jpg";
-import img5 from "../../../assets/img/galery/5.jpg";
-import img6 from "../../../assets/img/galery/6.jpg";
-import img7 from "../../../assets/img/galery/7.jpg";
-import img8 from "../../../assets/img/galery/8.jpg";
-import img9 from "../../../assets/img/galery/9.jpg";
-import img10 from "../../../assets/img/galery/10.jpg";
-import img11 from "../../../assets/img/galery/11.jpg";
-import img12 from "../../../assets/img/galery/12.jpg";
-import img13 from "../../../assets/img/galery/13.jpg";
-import img14 from "../../../assets/img/galery/14.jpg";
-import img15 from "../../../assets/img/galery/15.jpg";
-import img16 from "../../../assets/img/galery/16.jpg";
-import img17 from "../../../assets/img/galery/17.jpg";
-import img18 from "../../../assets/img/galery/18.jpg";
-import img19 from "../../../assets/img/galery/19.jpg";
-import img20 from "../../../assets/img/galery/20.jpg";
-import img21 from "../../../assets/img/galery/21.jpg";
+import img1 from "../../../assets/img/galery/1.svg";
+import img2 from "../../../assets/img/galery/2.svg";
+import img3 from "../../../assets/img/galery/3.svg";
+import img4 from "../../../assets/img/galery/4.svg";
+import img5 from "../../../assets/img/galery/5.svg";
+import img6 from "../../../assets/img/galery/6.svg";
+import img7 from "../../../assets/img/galery/7.svg";
+import img8 from "../../../assets/img/galery/8.svg";
+import img9 from "../../../assets/img/galery/9.svg";
+import img10 from "../../../assets/img/galery/10.svg";
+import img11 from "../../../assets/img/galery/11.svg";
+import img12 from "../../../assets/img/galery/12.svg";
+import img13 from "../../../assets/img/galery/13.svg";
+import img14 from "../../../assets/img/galery/14.svg";
+import img15 from "../../../assets/img/galery/15.svg";
+import img16 from "../../../assets/img/galery/16.svg";
+import img17 from "../../../assets/img/galery/17.svg";
+import img18 from "../../../assets/img/galery/18.svg";
+import img19 from "../../../assets/img/galery/19.svg";
+import img20 from "../../../assets/img/galery/20.svg";
+import img21 from "../../../assets/img/galery/21.svg";
 
 function Galery() {
   return (
