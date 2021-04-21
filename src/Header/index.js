@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../assets/img/logo.png";
 import Idioma from "./Components/Idioma/Idioma";
 import Menu from "./Components/Menu/Menu";
+import Motor from "./Components/Motor/motor";
 import "./index.scss";
 
 const Header = () => {
@@ -12,6 +13,7 @@ const Header = () => {
       </div>
       <Idioma />
       <Menu />
+      <Motor />
     </div>
   );
 };
