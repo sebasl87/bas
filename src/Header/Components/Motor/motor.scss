@@ -1,0 +1,69 @@
+#reservas_form{
+	padding: 15px;
+	background-color: #bf9869;
+    margin-top: 5px;
+}
+#hotel_select{
+    display:none!important;
+}
+#rooms{
+	display:none!important;
+}
+#ch{
+	display:none!important;
+}
+#hotel_select{
+	display:none!important;
+}
+
+.inputs{
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	box-sizing: border-box;
+	font-size: 15px;
+	padding: 10px;
+    margin-right: 7px;
+}
+
+.boton_reserva{
+	font-size: 18px;
+	height: 40px;
+	width: 100%;
+	color: white;
+	border-radius: 5px;
+	box-sizing: border-box;
+	background-color: #b1b1b1;
+	border: none;
+}
+
+@media(min-width: 680px){
+	#reservas_form{
+		text-align: center;
+	}
+	.inputs{
+		width: 32%!important;
+		display: inline-block!important;
+		vertical-align: top;
+	}
+	.boton_reserva{
+		width: 32%!important;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media(min-width: 980px){
+	#reservas_form{
+		margin: 0 auto;	
+		max-width: 970px;
+		border-radius: 5px;
+	}
+	.inputs, .boton_reserva{
+		width: 18%!important;
+	}
+	.boton_reserva{
+		display: inline-block;
+		vertical-align: top;
+	}
+}
