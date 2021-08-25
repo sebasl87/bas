@@ -1,21 +1,20 @@
 {
-    "menu": {
-      "rva": "Reservas",
-      "serv": "Servicios",
-      "gal": "Galería",
-      "ubi": "Ubicación",
-      "ctc": "Contacto"
-    },
-    "golden": "Departamento ubicado en el tercer piso del edificio Marinas Tower, con amplios ventanales en todos los ambientes con vista hacia la Bahía de Ushuaia, Canal Beagle, Monte Olivia y Glaciar Martial.",
-    "servicios": "Departamento de cuatro ambientes: tres dormitorios (uno en suite convestidor), living- cocina comedor y dos baños.\n\nCocina eléctrica, horno eléctrico, microondas, cafetera y tostadora eléctrica, heladera con freezer, smart TV y wifi gratuito. Todas las camas son sommiers de alta calidad. El edificio posee terraza, laundryy seguridad durante el día.",
-    "ubicacion": "Está ubicado muy próximo al centro de la ciudad, a pie sin pendiente y a cuatro cuadras de la Bahía de Ushuaia. Se encuentra a pocos metros de un supermercado grande, con cajero automático y a cuatro cuadras de una estación de servicio.",
-    "contacto": {
-      "nombre": "Nombre",
-      "mail": "Email",
-      "tel": "Teléfono",
-      "nac": "Nationalidad",
-      "msg": "Consulta",
-      "enviar": "Enviar"
-    }
+  "menu": {
+    "rva": "Reservas",
+    "serv": "Servicios",
+    "gal": "Galería",
+    "ubi": "Ubicación",
+    "ctc": "Contacto"
+  },
+  "golden": "Departamento ubicado en el tercer piso del edificio Marinas Tower, con amplios ventanales en todos los ambientes con vista hacia la Bahía de Ushuaia, Canal Beagle, Monte Olivia y Glaciar Martial.",
+  "servicios": "Departamento de cuatro ambientes: tres dormitorios (uno en suite con vestidor), living- cocina comedor y dos baños.\n\nCocina eléctrica, horno eléctrico, microondas, cafetera y tostadora eléctrica, heladera con freezer, smart TV y wifi gratuito. Todas las camas son sommiers de alta calidad. El edificio posee terraza, laundryy seguridad durante el día.",
+  "ubicacion": "Está ubicado muy próximo al centro de la ciudad, a pie sin pendiente y a cuatro cuadras de la Bahía de Ushuaia. Se encuentra a pocos metros de un supermercado grande, con cajero automático y a cuatro cuadras de una estación de servicio.",
+  "contacto": {
+    "nombre": "Nombre",
+    "mail": "Email",
+    "tel": "Teléfono",
+    "nac": "Nationalidad",
+    "msg": "Consulta",
+    "enviar": "Enviar"
   }
-  
+}
